@@ -1,0 +1,37 @@
+
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Avaliação | Self Assessment</title><link rel="stylesheet" href="css/style.css"/></head>
+<body><header class="app"><img src="assets/logo.png" class="logo-img"/><h1>Avaliação Trimestral</h1>
+<nav class="nav"><a href="dashboard.html">Dashboard</a> • <a href="admin.html">Admin</a> • <a href="index.html" onclick="localStorage.clear()">Sair</a></nav></header>
+<div class="container">
+  <div class="card">
+    <h2>Dados do Colaborador</h2>
+    <div class="grid cols-3">
+      <div><label>Nome</label><input id="nome" type="text" placeholder="Seu nome"/></div>
+      <div><label>Área</label><select id="area"><option value="">Selecione...</option><option>South</option><option>North</option><option>Expo</option></select></div>
+      <div><label>Cargo</label><select id="cargo"><option value="">Selecione...</option><option>Senior Outbound Planner</option><option>Outbound Planner</option><option>Outbound Clerk</option></select></div>
+    </div>
+    <div class="grid cols-2">
+      <div class="notice"><b>Como responder</b><br/>Escolha um número de 1 a 5 para cada pergunta.<br/>
+      1 - 20% - Não tem conhecimento e não recebeu treinamento<br/>
+      2 - 40% - Recebeu treinamento / ainda não se sente confiante<br/>
+      3 - 60% - Recebeu treinamento / sente-se capaz<br/>
+      4 - 80% - Está apto para realizar<br/>
+      5 - 100% - Está apto e treina a atividade</div>
+      <div class="notice">Dica: responda tudo e clique <b>Enviar avaliação</b>. Você poderá baixar um relatório ao final.</div>
+    </div>
+    <div class="grid cols-2"><div class="badge">Quarter: <span id="quarterSpan"></span></div><div class="badge">Data: <span id="dateSpan"></span></div></div>
+  </div>
+
+  <div id="questionsCard" class="card">
+    <h2>Perguntas</h2>
+    <div id="qError" class="notice error" style="display:none"></div>
+    <div id="questions"></div>
+    <div class="grid cols-2" style="margin-top:12px">
+      <button id="btnSalvar">Salvar rascunho</button>
+      <button id="btnEnviar">Enviar avaliação</button>
+    </div>
+    <div id="banner" class="notice success" style="display:none">Avaliação salva com sucesso.</div>
+  </div>
+</div>
+<script src="js/common.js"></script><script src="js/assessment.js"></script></body></html>

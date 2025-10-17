@@ -1,0 +1,21 @@
+
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Dashboard | Self Assessment</title><link rel="stylesheet" href="css/style.css"/></head>
+<body><header class="app"><img src="assets/logo.png" class="logo-img"/><h1>Dashboard</h1>
+<nav class="nav"><a href="assessment.html">Avaliação</a> • <a href="admin.html">Admin</a> • <a href="index.html" onclick="localStorage.clear()">Sair</a></nav></header>
+<div class="container">
+  <div id="gate" class="notice error" style="display:none"></div>
+  <div id="dash" class="card" style="display:none">
+    <div class="grid cols-3">
+      <div><label>Quarter</label><select id="filterQuarter"><option value="">Todos</option><option>Q1</option><option>Q2</option><option>Q3</option><option>Q4</option></select></div>
+      <div style="align-self:end"><button id="btnExport">Exportar CSV detalhado</button></div>
+      <div style="align-self:end"><button class="secondary" id="btnReload">Atualizar</button></div>
+    </div>
+    <div class="grid cols-2">
+      <div><h3>Média por Categoria</h3><canvas id="bar" width="520" height="320"></canvas></div>
+      <div><h3>Conclusão</h3><canvas id="pie" width="520" height="320"></canvas></div>
+    </div>
+    <div class="card"><table class="table" id="tbl"><thead></thead><tbody></tbody></table></div>
+  </div>
+</div>
+<script src="js/common.js"></script><script src="js/dashboard.js"></script></body></html>

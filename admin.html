@@ -1,0 +1,16 @@
+
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Admin | Self Assessment</title><link rel="stylesheet" href="css/style.css"/></head>
+<body><header class="app"><img src="assets/logo.png" class="logo-img"/><h1>Admin</h1>
+<nav class="nav"><a href="assessment.html">Avaliação</a> • <a href="dashboard.html">Dashboard</a> • <a href="index.html" onclick="localStorage.clear()">Sair</a></nav></header>
+<div class="container">
+  <div id="gate" class="notice error" style="display:none"></div>
+  <div id="adminCard" class="card" style="display:none">
+    <h2>Gerenciar</h2>
+    <div class="grid cols-2"><button class="danger" id="btnReset">Resetar respostas (localStorage)</button><button id="btnExport">Exportar CSV detalhado</button></div>
+    <h3>Adicionar usuário (local)</h3>
+    <div class="grid cols-3"><input id="newEmail" type="email" placeholder="email@empresa.com"/><select id="newRole"><option>USER</option><option>MANAGER</option><option>ADMIN</option></select><button id="btnAddUser">Adicionar</button></div>
+    <div id="adminMsg" class="notice" style="display:none"></div>
+  </div>
+</div>
+<script src="js/common.js"></script><script src="js/admin.js"></script></body></html>

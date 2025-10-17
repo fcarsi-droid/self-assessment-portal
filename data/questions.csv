@@ -1,0 +1,81 @@
+﻿DESCR;DEFINICAO;Senior Outbound Planner;Outbound Planner;Outbound Logistic Clerk
+CMR / Bill of lading;Conhecimento do que são a Convenção sobre o Contrato de Transporte Internacional de Mercadorias por Estrada (CMR) e o Conhecimento de Embarque (BoL) e onde o documento é aplicável para uso. Conhecimento de como criar/gerar CMR e BoL (emissão fora de ECC ou OTM).;4;4;2
+Conhecimento de transporte: B/L;;4;4;2
+Conhecimento de transporte: AWB;;4;4;2
+Conhecimento de transporte: CRT;;4;4;2
+Conhecimento de transporte: CTE/REMITO;;4;4;2
+Conhecimento de transporte: BOL (US);;4;4;2
+Conhecimento de transporte: Carta Porte (MX);;4;4;2
+Perfect Order concept & rules;Conhecimento da definição do KPI do Perfect Order, como ele é calculado, de onde vêm os dados de origem e como implantá-los.;3;3;2
+Conhecimento PO: Fault codes atacáveis e não atacáveis;;3;3;2
+Conhecimento PO: Analise mensal das codificações das transportadoras;;3;3;2
+Conhecimento PO: Indicador da redução de vozes;;3;3;2
+Conhecimento PO: Codificação manual;;3;3;2
+Conhecimento PO: Manuseio do BO (entrar, criar e baixar reportes);;3;3;2
+Export routines;Compreender quais das rotinas aplicáveis atualmente atendem aos requisitos legais e garantir que o material possa ser enviado sem atrasos. Isto inclui a compreensão de quais documentos utilizar, quais entidades/autoridades envolver e onde encontrar as informações mais recentes.;4;2;1
+Conhecimento Export routines: Treinamento Export Control (1 não realizado / 5 realizado);;4;2;1
+OFPM Master Data Management;Compreensão de como os dados mestres impactam o processo OFPM. Conhecimento de propriedade de dados mestre.;3;3;1
+Conhecimento OFPM Master Data: Cadastro de Rotas;;3;3;1
+Conhecimento OFPM Master Data:  BEX  - mastar data no OTM;;3;3;1
+Trade Flows;Compreensão de todos os diferentes fluxos comerciais da Tetra Pak em geral e conhecimento detalhado do(s) fluxo(s) comercial(is) relevante(s) relacionado(s) à sua própria região/fábrica. Conhecimento de como os fluxos comerciais devem ser aplicados.;3;3;1
+End-to-end Inbound and Outbound Transportation Processes;Conhecimento dos processos de transporte de entrada e saída. Compreensão do que significa cada atividade do processo.;4;4;3
+Conhecimento end-to-end: Conhecimento e acesso do processo global no orbis;;4;4;3
+Dispatch Planning List (DPL);Conhecimento de como acessar e trabalhar com a Lista de Planejamento de Despacho (DPL).;4;4;3
+Conhecimento SAP: Analise DPL / Alterar Status;;4;4;3
+Conhecimento SAP: Checar estoque;;4;4;3
+Conhecimento SAP: Conhecimento de rotas/alteração;;4;4;3
+Post Goods Issue (and reverse);Compreender o significado de Pós-Emissão de Mercadorias. Conhecimento de como utilizar a Pós-Emissão de Mercadorias e como revertê-la quando aplicável. Processo do WH de verificação da carga pós carregamento e confirmação no sistema - uma vez feito não pode haver nenhuma alteração na ordem.;3;3;2
+SAP Reports;Conhecimento de como utilizar relatórios SAP em sua área ou expertise.;3;3;2
+Extração PO;;3;3;2
+DPL;;3;3;2
+Estoque por item;;3;3;2
+Estoque por lista;;3;3;2
+YT2K - fluxo de documentos ;;3;3;2
+Rebate ;;3;3;2
+Lista de Faturamento;;3;3;2
+BI reports;Ser capaz de navegar pelos diferentes relatórios - na sua área funcional. Entendimento de quais relatórios atenderão a qual finalidade, tendo a capacidade de analisar o desempenho por meio de marcadores e realizar ações.;3;3;1
+BO: Perfect Order;;3;3;1
+BI: SCCT Americas;;3;3;1
+General supply chain understanding;Ser capaz de navegar pelos diferentes relatórios - na sua área funcional. Entendimento de quais relatórios atenderão a qual finalidade, tendo a capacidade de analisar o desempenho por meio de marcadores e realizar ações.;3;3;2
+WCM principles;Compreensão básica de ferramentas e métodos;3;3;3
+Conhecimento WCM: Makimagi;;3;3;3
+Conhecimento WCM: PDCA;;3;3;3
+Conhecimento WCM: 12 passos Kaizen;;3;3;3
+Conhecimento WCM: o que é uma perda e fazer Loss deployment;;3;3;3
+OFPM Process Understanding;Compreensão de alto nível do processo OFPM ponta a ponta, desde o gerenciamento de design até a logística, incluindo os pontos de integração de alto nível com o processo de produção.;3;3;2
+Load securing;Conhecimento sobre fixação de carga, embalagem de transporte e prevenção de danos de transporte;3;3;1
+Conhecimento Load Securing: Acesso ao Manual de cargas do WH;;3;3;1
+EU VAT Concept/Partner functions & incoterm/incobuy;Compreensão da solução do IVA da UE e do impacto de alto nível nos fluxos comerciais e nas restrições aos fluxos logísticos. Conhecimento do papel do TPI vs logística local e do conceito de Transporte Responsável. Compreensão da diferença entre “Incoterms” e “Incobuy” (aplicável a sites onde a TPI é Responsável pelo Transporte).;3;2;1
+Air freight process;Compreensão total das diferentes etapas do processo de frete aéreo. Cotações, reembalagem, fluxo de comunicação com todos os stakeholders.;3;1;1
+Conhecimento Frete Aéreo: Cotações com agentes;;3;1;1
+Conhecimento Frete Aéreo: Bizagi;;3;1;1
+Transport execution and tracking ;Compreensão do processo de pedido de entrega ponta a ponta e regras de negócios em torno da criação de requisitos de entrega. Compreensão dos recursos de rastreamento e rastreamento no e-Business.;4;4;2
+Conhecimento Track&Trace: Fourkites;;4;4;2
+Conhecimento Track&Trace: Rastrear uma carga;;4;4;2
+Conhecimento Track&Trace: ILMCT;;4;4;2
+Incoterms ;Conhecimento sobre Incoterms, propósito e impacto nas relações comerciais e quais Incoterms são preferidos pela Tetra Pak.;4;4;2
+Logistics Cost Control (LCC);Compreensão dos relatórios de Controle de Custos Logísticos (LCC) no BO. Onde encontrar os relatórios, entendimento de alto nível de onde vêm as informações e como fazer a filtragem adequada e detalhar para obter informações mais detalhadas.;3;3;1
+BO: Fill-rate;;3;3;1
+BO: Outbound cost;;3;3;1
+Transportation process & rules for direct delivery & replenishment flow;"Conhecimento detalhado do processo de transporte utilizado tanto para entregas diretas quanto para fluxos de reposição (para Fábricas de Conversão). Conhecimento de como é criada a ordem de entrega (DO) e por quem; como a entrega para a Converting Factory é criada e vinculada ao envio. Compreender como as regras são configuradas quando se trata de mudanças e ajustes.";4;4;2
+Freight Settlement ;Compreensão detalhada do processo de liquidação de frete, incluindo auditorias de frete e gerenciamento de exceções.;4;4;2
+Conhecimento Freight Settlement: Pagamentos e aprovações;;4;4;2
+Conhecimento Freight Settlement: Fluxo do processo no OTM & SAP (modulo);;4;4;2
+Conhecimento Freight Settlement: Custos Extras no OTM;;4;4;2
+Plan and book transport;Conhecimento detalhado de como planejar e reservar o transporte com as transportadoras de acordo com os contratos e confirmar a reserva do transporte em conformidade.;4;4;3
+Delivery documentation;Conhecimento de qual documento é necessário de acordo com os requisitos locais e tipo de entrega. Capacidade de recuperá-los ou criá-los a partir do sistema relevante.;3;3;2
+Oracle Transportation Management  (OTM);Conhecimento detalhado da plataforma Oracle Transportation Management (OTM) e capacidade de utilização dos módulos implementados.;4;4;3
+Conhecimento OTM: Bulk Plan / Tender Shipments / Change service Provider/Workbench;;4;4;3
+Conhecimento OTM: Dockyard;;4;4;3
+Conhecimento OTM: Agendamento janela/Revisão Janela;;4;4;3
+Office;;4;4;3
+Conhecimento Office: Metodologia;conhecimento da Metodologia, de todos os passos, qual o objetivo da implementação na área;4;4;3
+Conhecimento Office: Passos;Conhecimento da etapa que o depto se encontra, ações atuais para atingimento das metas do quarter;4;4;3
+Conhecimento Office: Indicadores do contrato;;4;4;3
+Abertura de Tickets;;5;1;1
+Power BI;Conhecimento da ferramenta e utilização no dia a dia;4;3;1
+Excel;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
+Power Point;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
+Outlook;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
+Teams;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
+P2;Conhecimento da ferramenta e utilização no dia a dia;4;3;2

@@ -1,0 +1,16 @@
+
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Resultado | Self Assessment</title><link rel="stylesheet" href="css/style.css"/></head>
+<body><header class="app"><img src="assets/logo.png" class="logo-img"/><h1>Resultado da Avaliação</h1>
+<nav class="nav"><a href="dashboard.html">Dashboard</a> • <a href="assessment.html">Refazer</a> • <a href="index.html" onclick="localStorage.clear()">Sair</a></nav></header>
+<div class="container">
+  <div id="resCard" class="card" style="display:none">
+    <h2>Resumo</h2>
+    <div id="summaryBox" class="notice"></div>
+    <h3>Temas abaixo da meta do seu cargo</h3>
+    <div id="belowList" class="notice error" style="display:none"></div>
+    <div class="grid cols-2"><button id="btnExport">Baixar relatório completo (.csv)</button></div>
+    <p class="notice">Salve seu relatório e procure um integrante da célula de People para desenvolver um plano de capacitação.</p>
+  </div>
+</div>
+<script src="js/common.js"></script><script src="js/results.js"></script></body></html>
