@@ -42,6 +42,37 @@ async function init(){
     const i=all.findIndex(r=>r.key===key); if(i>=0) all[i]=rec; else all.push(rec); setAllResponses(all);
     const banner=document.getElementById('banner'); banner.textContent=final?'Avaliação enviada com sucesso.':'Rascunho salvo com sucesso.'; banner.style.display='block';
     setTimeout(()=>{ banner.style.display='none'; if(final){ location.href='results.html'; } }, 900);
+  // ====== Envio ao Supabase ======
+try {
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE.url,
+    SUPABASE.anonKey
+  );
+
+  const { data, error } = await supabaseClient
+    .from('responses')
+    .insert([
+      {
+        email: document.querySelector('#email')?.value || 'anonimo@teste.com',
+        quarter: document.querySelector('#quarterSpan')?.innerText || 'Q?',
+        nome: document.querySelector('#name')?.value || 'Sem nome',
+        area: document.querySelector('#area')?.value || 'Não informada',
+        cargo: document.querySelector('#cargo')?.value || 'Não informado',
+        respostas: respostas || [],
+        metas: metas || [],
+        final: true
+      }
+    ]);
+
+  if (error) {
+    console.error('Erro ao gravar no Supabase:', error);
+  } else {
+    console.log('Registro salvo no Supabase:', data);
+  }
+} catch (e) {
+  console.error('Falha geral Supabase:', e);
+}
+// ====== Fim do envio ======
   }
 }
 document.addEventListener('DOMContentLoaded', init);
