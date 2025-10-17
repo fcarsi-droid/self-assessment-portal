@@ -1,4 +1,4 @@
-﻿DESCR;DEFINICAO;Senior Outbound Planner;Outbound Planner;Outbound Logistic Clerk
+categoria;pergunta;meta_Senior Outbound Planner;meta_Outbound Planner;meta_Outbound Logistic Clerk
 CMR / Bill of lading;Conhecimento do que são a Convenção sobre o Contrato de Transporte Internacional de Mercadorias por Estrada (CMR) e o Conhecimento de Embarque (BoL) e onde o documento é aplicável para uso. Conhecimento de como criar/gerar CMR e BoL (emissão fora de ECC ou OTM).;4;4;2
 Conhecimento de transporte: B/L;;4;4;2
 Conhecimento de transporte: AWB;;4;4;2
@@ -79,3 +79,4 @@ Power Point;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
 Outlook;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
 Teams;Conhecimento da ferramenta e utilização no dia a dia;4;3;3
 P2;Conhecimento da ferramenta e utilização no dia a dia;4;3;2
+
